@@ -1,0 +1,23 @@
+{
+  "name": "w-axis-exchange-rates",
+  "version": "0.0.0",
+  "description": "Get exchange rates for the last week",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev supervisor app.js"
+  },
+  "author": "Eugene Stadnik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nconf": "^0.10.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0",
+    "eslint": "^5.6.1",
+    "eslint-plugin-node": "^7.0.1"
+  }
+}
